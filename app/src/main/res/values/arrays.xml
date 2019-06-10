@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+
+
+    <!--temperature setting value-->
+
+    <!--new content lang-->
+
+    <string-array name="news_content_lang_entry">
+        <item>@string/lang_am</item>
+        <item>@string/lang_en</item>
+        <item>@string/lang_ti</item>
+        <item>@string/lang_or</item>
+    </string-array>
+
+    <string-array name="news_content_lang_entry_value">
+        <item>am</item>
+        <item>en</item>
+        <item>ti</item>
+        <item>or</item>
+    </string-array>
+
+    <!--app lang entry -->
+    <string-array name="app_lang_entry">
+        <item>@string/lang_am</item>
+        <item>@string/lang_en</item>
+        <!--<item>@string/lang_ti</item>-->
+        <!--<item>@string/lang_or</item>-->
+    </string-array>
+    <!--app lang entry value-->
+    <string-array name="app_lang_entry_value">
+        <item>am</item>
+        <item>en</item>
+        <!--<item>ti-rET</item>-->
+        <!--<item>om</item>-->
+
+    </string-array>
+
+
+    <!--list of category-->
+    <string-array name="new_catagory_list_entries">
+        <item>@string/top_stories</item>
+        <item>@string/technology</item>
+        <item>@string/world</item>
+        <item>@string/sport</item>
+        <item>@string/politics</item>
+        <item>@string/business</item>
+        <item>@string/entertainment</item>
+        <item>@string/health</item>
+        <item>@string/social</item>
+        <item>@string/art_and_culture</item>
+        <item>@string/videos</item>
+
+
+    </string-array>
+
+
+    <string-array name="new_catagory_list_entries_values">
+        <item>Headlines</item>
+        <item>Technology</item>
+        <item>World</item>
+        <item>Sport</item>
+        <item>Politics</item>
+        <item>Business</item>
+        <item>Entertainment</item>
+        <item>Health</item>
+        <item>Social</item>
+        <item>Art and Culture</item>
+        <item>Video</item>
+
+    </string-array>
+
+    <!--category list -->
+    <string-array name="categories">
+        <item>@string/top_stories</item>
+        <item>@string/technology</item>
+        <item>@string/world</item>
+        <item>@string/sport</item>
+        <item>@string/politics</item>
+        <item>@string/business</item>
+        <item>@string/entertainment</item>
+        <item>@string/health</item>
+        <item>@string/social</item>
+        <item>@string/art_and_culture</item>
+        <item>@string/videos</item>
+
+    </string-array>
+
+
+</resources>

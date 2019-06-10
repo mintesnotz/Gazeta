@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gazetta</string>
+    <string name="my_news">ምንጮች</string>
+    <string name="about">ሌሎች</string>
+    <string name="application_language">የ አፕሊኬሽን ቋንቋ</string>
+    <string name="art_and_culture">ጥበብ እና ባህል</string>
+    <string name="bookmark">የተቀመጡ</string>
+    <string name="business">ቢዝነስ</string>
+    <string name="content_lang">የ ዜና ቋንቋ</string>
+    <string name="custimise_notficaion_title">ማስተዋሻ ማስተካከያ</string>
+    <string name="entertainment">መዝናኛ</string>
+    <string name="health">ጤና</string>
+    <string name="home">መግቢያ</string>
+    <string name="lang">ቋንቋ</string>
+    <string name="lang_am">አማርኛ</string>
+    <string name="lang_en">ኢንግሊዘኛ</string>
+    <string name="ok">እሺ</string>
+    <string name="open_news_in_web_browser">ዜና በ ብራውዘር ይከፈት</string>
+    <string name="politics">ፖለቲካ</string>
+    <string name="ringtone">ምጥሪያ ድምጽ</string>
+    <string name="send_feedback">አስተያየት</string>
+    <string name="setting">ማስተካኪያ</string>
+    <string name="social">ማኅበረሰብ</string>
+    <string name="sport">ስፖርት</string>
+    <string name="technology">ቴክኖሎጂ</string>
+    <string name="text_size">የጽሁፍ መጠን</string>
+    <string name="top_stories">አርእስት</string>
+    <string name="world">ዓለም</string>
+
+
+    <!--string resource for preference-->
+    <string name="general">ጠቅላላ</string>
+    <string name="cancel">አይ</string>
+    <string name="image_loading">ምስል</string>
+    <string name="notification">ማስተዋሻ</string>
+    <string name="added_to_read_later">"ለበኋላ ለማንበብ ተቀምጧል "</string>
+    <string name="clear_all">ሁሉንም አስወግድ</string>
+    <string name="customer_care">እገዛ እና አስተያየት</string>
+    <string name="go_to_orginal_website">ኦሪጅናል ድረ-ገጽ ይመልከቱ</string>
+    <string name="lang_or">ኦሮምኛ</string>
+    <string name="lang_ti">ትግሪኛ</string>
+    <string name="no_article_saved">ምንም ዜና አልተቀመጠም</string>
+    <string name="no_connation">የኢንተርኔት ግንኙነት የለም</string>
+    <string name="removed_from_read_later">ከተቀመጠው ተወግዷል</string>
+    <string name="share">አጋራ</string>
+    <string name="succ_delete_all_news_msg">ሁሉም  ዜና በተሳካ ሁኔታ ተወግዷል</string>
+    <string name="videos">ቪድዮ</string>
+    <string name="video_loading">ቪድዮ</string>
+    <string name="medium">መካከለኛ</string>
+    <string name="small">ትንሽ</string>
+    <string name="large">ትልቅ</string>
+    <string name="extra_large">በጣም ትልቅ</string>
+    <string name="tiny">ትንሽ</string>
+
+
+</resources>

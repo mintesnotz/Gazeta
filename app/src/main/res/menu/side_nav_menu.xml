@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:icon="@drawable/ic_top_stories"
+        android:title="@string/top_stories"/>
+    <item
+        android:icon="@drawable/ic_technology"
+        android:title="@string/technology" />
+
+    <item
+        android:icon="@drawable/ic_world"
+        android:title="@string/world" />
+    <item
+        android:icon="@drawable/ic_sport"
+        android:title="@string/sport" />
+
+    <item
+        android:icon="@drawable/ic_politics"
+        android:title="@string/politics" />
+
+    <item
+        android:icon="@drawable/ic_business"
+        android:title="@string/business" />
+
+
+    <item
+        android:icon="@drawable/ic_entertainment"
+        android:title="@string/entertainment" />
+
+
+    <item
+        android:icon="@drawable/ic_health"
+        android:title="@string/health" />
+    <item
+        android:icon="@drawable/ic_social"
+        android:title="@string/social" />
+
+    <item
+        android:icon="@drawable/ic_art_and_culture"
+        android:title="@string/art_and_culture" />
+
+
+
+    <item
+        android:icon="@drawable/ic_video"
+        android:title="@string/videos" />
+</menu>

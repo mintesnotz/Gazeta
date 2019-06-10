@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#fff"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.andnet.gazeta.ChooseCategoryActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+   <TextView
+                android:textColor="@color/colorAccent"
+                android:padding="16dp"
+                android:textSize="16sp"
+                android:text="@string/choose_category_to_start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+    <View
+        android:background="#10000000"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"/>
+
+<RelativeLayout
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_above="@+id/hello"
+        android:background="#fff"
+        android:scrollbars="none"
+        android:id="@+id/rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:id="@+id/hello"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/contButton"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:background="@color/colorAccent"
+            android:textColor="#fff"
+            android:padding="16dp"
+            android:textSize="20sp"
+            android:text="@string/continue_to"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
+
+
+
+</LinearLayout>

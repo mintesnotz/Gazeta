@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Gazetta</string>
+    <string name="home">Home</string>
+    <string name="bookmark">Read Later</string>
+    <string name="my_news">Source</string>
+
+    <!--category list-->
+    <string name="top_stories">Top Stories</string>
+    <string name="technology">Technology</string>
+    <string name="world">World</string>
+    <string name="business">Business</string>
+    <string name="politics">Politics</string>
+    <string name="sport">Sport</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="health">Health</string>
+    <string name="art_and_culture">Art and Culture</string>
+    <string name="social">Social</string>
+    <string name="videos">Video</string>
+
+
+    <!--used for drawer-->
+
+    <!--used for main setting-->
+    <string name="setting">Settings</string>
+    <string name="text_size">Text Size</string>
+    <string name="send_feedback">Send Feedback</string>
+
+    <!--values for the theme chooser-->
+
+    <!--other string value-->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+
+    <!--string resource for preference-->
+    <string name="general">General</string>
+    <string name="open_news_in_web_browser">Open News In Web Browser</string>
+    <string name="lang">Language</string>
+    <string name="application_language">Application Language</string>
+    <string name="app_lang_default_value" translatable="false">en</string>
+    <string name="lang_en">English</string>
+    <string name="lang_am">Amharic</string>
+    <string name="lang_ti">Tigrinya</string>
+    <string name="lang_or">Afan Oromo</string>
+    <string name="content_lang">Content Language</string>
+    <string name="content_lang_defualt_value" translatable="false">am</string>
+    <string name="ringtone">Ringtone</string>
+    <string name="image_loading">Image Loading</string>
+    <string name="notification">Notification</string>
+    <string name="custimise_notficaion_title">Customise  Notifications</string>
+    <string name="about">About</string>
+    <string name="customer_care">Help and Feedback</string>
+
+    <string name="source_image_view" translatable="false">source image view</string>
+
+    <string name="share">Share</string>
+    <string name="insert_failed" translatable="false">Insertion failed</string>
+    <string name="invalid_delete_uri" translatable="false">invalid delete uri</string>
+
+    <string name="clear_all">Clear All</string>
+    <string name="succ_delete_all_news_msg">Successfully deleted all offline News</string>
+    <string name="no_article_saved">No Article Saved</string>
+    <string name="added_to_read_later">Added To Read Later</string>
+    <string name="removed_from_read_later">Removed from Read Later</string>
+
+    <string name="go_to_orginal_website">View original web page</string>
+    <string name="no_connation">No internet connection</string>
+
+    <!--<string name="news_content_lang_entry_value" translatable="false">news_content_lang_entry_value</string>-->
+    <!--<string name="app_lang_entry" translatable="false">app_lang_entry</string>-->
+    <!--<string name="app_lang_entry_value" translatable="false">app_lang_entry_value</string>-->
+    <!--<string name="new_catagory_list_entries" translatable="false">new_catagory_list_entries</string>-->
+    <!--<string name="new_catagory_list_entries_values" translatable="false">new_catagory_list_entries_values</string>-->
+
+    <string name="choose_source" translatable="false">Choose Source</string>
+    <string name="video_loading">Video Loading</string>
+    <string name="choose_category_to_start" translatable="false">Choose Category To Start</string>
+    <string name="continue_to" translatable="false">Continue</string>
+    <string name="medium">Medium</string>
+    <string name="small">Small</string>
+    <string name="large">Large</string>
+    <string name="extra_large">Extra Large</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="tiny">Tiny</string>
+    <string name="openDrawer">open</string>
+    <string name="closeDrawer">close</string>
+</resources>

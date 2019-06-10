@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="210dp">
+
+
+    <cn.jzvd.JZVideoPlayerStandard
+        android:visibility="gone"
+        android:id="@+id/videoplayer"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"/>
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:visibility="visible"
+        android:scaleType="centerCrop"
+        android:id="@+id/youtube_thumbnail_view"
+        android:layout_width="match_parent"
+        android:layout_height="210dp" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout_over_youtube_thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:background="#10191919"
+        android:visibility="visible">
+
+        <ImageView android:id="@+id/btnYoutube_player"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="fitXY"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/jz_play_normal"/>
+
+    </RelativeLayout>
+
+</FrameLayout>
+
+
+

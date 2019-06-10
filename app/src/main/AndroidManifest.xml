@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.andnet.gazeta">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustNothing" />
+
+        <!-- splash screen that is called for the first time -->
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/SplashScreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- the setting activity -->
+        <activity
+            android:name=".Preference.SettingActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".LibDetailActivity" />
+
+        <service
+            android:name=".Background.NewsReaderService"
+            android:exported="false" />
+
+        <receiver
+            android:name=".Background.NewsBroadCastReciver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+
+        <activity android:name=".NewsDetailActivity" />
+        <activity android:name=".WebVeiwActivity" />
+
+        <provider
+            android:name=".Databases.GazetaContentProvider"
+            android:authorities="com.thegazeta.news.Databases"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity android:name=".ReadLaterDetailActivity" />
+
+        <provider
+            android:name=".Databases.KeyContentProvider"
+            android:authorities="com.thegazeta.news.Databases.key"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".AboutActivity">
+            <intent-filter>
+                <action android:name="com.thegazeta.news.AboutActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ChooseSourceActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+    </application>
+
+</manifest>

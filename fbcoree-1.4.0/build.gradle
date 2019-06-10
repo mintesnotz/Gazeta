@@ -1,0 +1,5 @@
+configurations.maybeCreate("default")
+artifacts.add("default", file('fbcoree-1.4.0.aar'))
+dependencies {
+    compile project(':app')
+}

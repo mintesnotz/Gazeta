@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <dimen name="image_height">210dp</dimen>
+
+
+    <dimen name="nav_header_height">130dp</dimen>
+
+    <!--news list items diemn-->
+    <dimen name="card_margin_top">10dp</dimen>
+    <dimen name="card_margin_bottom">10dp</dimen>
+    <dimen name="card_margin_left">0dp</dimen>
+    <dimen name="card_margin_right">0dp</dimen>
+
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--line space value-->
+
+    <!--//dimen resource for normal news list item-->
+    <dimen name="normal_card_layout_margin">16dp</dimen>
+
+
+    <!--defualt values-->
+    <dimen name="default_detail_title_text_size">25sp</dimen>
+    <dimen name="default_detail_paragraph_text_size">22sp</dimen>
+    <dimen name="default_detail_autor_date_text_size">18sp</dimen>
+    <dimen name="default_detail_source_name_text_size">15sp</dimen>
+
+
+    <!--tiny text size-->
+    <dimen name="title_text_size_tiny">10sp</dimen>
+    <dimen name="synop_text_size_tiny">8sp</dimen>
+    <dimen name="body_title_text_size_tiny">14sp</dimen>
+    <dimen name="body_text_text_size_tiny">12sp</dimen>
+    <dimen name="author_date_text_size_tiny">10sp</dimen>
+
+
+    <!--small text size-->
+    <dimen name="title_text_size_small">12sp</dimen>
+    <dimen name="synop_text_size_small">10sp</dimen>
+    <dimen name="body_title_text_size_small">16sp</dimen>
+    <dimen name="body_text_text_size_small">14sp</dimen>
+    <dimen name="author_date_text_size_small">12sp</dimen>
+
+    <!--medium text size-->
+    <dimen name="title_text_size_med">14sp</dimen>
+    <dimen name="synop_text_size_med">12sp</dimen>
+    <dimen name="body_title_text_size_med">20sp</dimen>
+    <dimen name="body_text_text_size_med">16sp</dimen>
+    <dimen name="author_date_text_size_med">13sp</dimen>
+
+
+    <!--large text size-->
+    <dimen name="title_text_size_large">16sp</dimen>
+    <dimen name="synop_text_size_large">14sp</dimen>
+    <dimen name="body_title_text_size_large">24sp</dimen>
+    <dimen name="body_text_text_size_large">20sp</dimen>
+    <dimen name="author_date_text_size_large">14sp</dimen>
+
+
+    <!--extra large text size-->
+    <dimen name="title_text_size_extra_large">20sp</dimen>
+    <dimen name="synop_text_size_extra_large">18sp</dimen>
+    <dimen name="body_title_text_size_extra_large">28sp</dimen>
+    <dimen name="body_text_text_size_extra_large">24sp</dimen>
+    <dimen name="author_date_text_size_extra_large">15sp</dimen>
+
+    <!--homelist fragment dimen-->
+
+
+</resources>

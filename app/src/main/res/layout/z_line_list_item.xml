@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:paddingLeft="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/colorAccent"
+        android:layout_width="4dp"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:linksClickable="true"
+        android:clickable="true"
+        android:textColor="#191919"
+        android:textIsSelectable="false"
+        android:lineSpacingExtra="8dp"
+        android:padding="8dp"
+        android:textSize="@dimen/default_detail_paragraph_text_size"
+        android:id="@+id/paragraph_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+         <!--general app behaviour configuration-->
+         <PreferenceCategory android:title="@string/general">
+            <SwitchPreference
+                android:key="pref_key_enable_image_loading"
+                android:title="@string/image_loading"
+                android:defaultValue="true"/>
+
+             <SwitchPreference
+                 android:key="pref_key_enable_video_loading"
+                 android:title="@string/video_loading"
+                 android:defaultValue="true"/>
+
+             <SwitchPreference
+                 android:key="pref_key_open_news_in_web_browser"
+                 android:title="@string/open_news_in_web_browser"
+                 android:defaultValue="false"/>
+
+        </PreferenceCategory>
+
+     <!--app and content language setting configuration-->
+        <PreferenceCategory android:title="@string/lang">
+        <ListPreference
+            android:key="pref_key_app_language"
+            android:title="@string/application_language"
+            android:defaultValue="@string/app_lang_default_value"
+            android:dialogTitle="@string/application_language"
+            android:entries="@array/app_lang_entry"
+            android:entryValues="@array/app_lang_entry_value"/>
+
+        <ListPreference
+            android:key="pref_key_content_language"
+            android:title="@string/content_lang"
+            android:defaultValue="@string/content_lang_defualt_value"
+            android:dialogTitle="@string/content_lang"
+            android:entries="@array/news_content_lang_entry"
+            android:entryValues="@array/news_content_lang_entry_value"/>
+        </PreferenceCategory>
+
+    <!--Notification configuration-->
+       <PreferenceCategory android:title="@string/notification">
+
+        <SwitchPreference
+            android:key="pref_key_enable_notification"
+            android:title="@string/notification"
+            android:defaultValue="true"/>
+
+        <RingtonePreference
+            android:key="pref_key_ringtone"
+            android:dependency="pref_key_enable_notification"
+            android:title="@string/ringtone"
+            android:ringtoneType="notification"
+            android:showDefault="true"/>
+
+
+        <MultiSelectListPreference
+            android:dependency="pref_key_enable_notification"
+            android:key="pref_key_cat_notification"
+            android:title="@string/custimise_notficaion_title"
+            android:dialogTitle="@string/custimise_notficaion_title"
+            android:entries="@array/new_catagory_list_entries"
+            android:entryValues="@array/new_catagory_list_entries_values"
+            android:defaultValue="@array/new_catagory_list_entries_values"/>
+       </PreferenceCategory>
+
+
+    <!--about the app and other things-->
+    <PreferenceCategory android:title="@string/customer_care">
+
+        <PreferenceScreen
+            android:title="@string/about">
+              <intent android:action="com.thegazeta.news.AboutActivity"/>
+            </PreferenceScreen>
+
+        <Preference
+            android:key="pref_key_send_feedback"
+            android:title="@string/send_feedback"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
